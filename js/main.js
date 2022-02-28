@@ -43,7 +43,8 @@ let processData = (data) => {
     <h4>Region: ${data.location.region}</h4>
     <h5>Timezone: ${data.location.timezone}</h5>
     <button id="hide-details" onclick="hideDetails()" class="btn btn-danger mt-4">
-    Hide Details</button>`;
+    Hide Details</button>
+    <p class="mt-4 fs-6 fst-italic"> Developed by: @rakibulmd </P>`;
     div.innerHTML = text;
     document.getElementById("spinner").style.display = "none";
     parent.appendChild(div);
